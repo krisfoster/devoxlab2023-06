@@ -84,7 +84,7 @@
 								<!-- Provide more memory to Native Image -->
                 <buildArg>-J-Xmx16G</buildArg>
                 <!-- Mostly static -->
-								<buildArg>-H:+StaticExecutableWithDynamicLibC</buildArg>
+								<!-- <buildArg>-H:+StaticExecutableWithDynamicLibC</buildArg> -->
 							</buildArgs>
             </configuration>
 					</plugin>
